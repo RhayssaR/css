@@ -8,8 +8,9 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
 header {
-    background-color: rgb(51, 41, 28);
+    background-color: rgb(100, 70, 34);
     width: 100%;
     height: 20%;
     color: aliceblue;
@@ -18,9 +19,15 @@ header {
     align-items: center;
     justify-content: flex-end;
 }
+div {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 
 ul {
-    background-color: rgb(53, 35, 13);
+    background-color: rgb(165, 135, 99);
     width: 100%;
     list-style: none;
     display: flex;
@@ -39,7 +46,7 @@ main {
 }
 
 section#primeiro{
-    background-color: rgb(185, 135, 88);
+    background-color: rgb(165, 130, 98);
     width: 30%;
     height: 80%;
     display: flex;
@@ -49,7 +56,7 @@ section#primeiro{
 }
 
 section#segundo {
-    background-color: rgb(122, 107, 88);
+    background-color: rgb(199, 166, 124);
     width: 45%;
     height: 80%;
     display: flex;
@@ -58,7 +65,7 @@ section#segundo {
 }
 
 footer {
-    background-color: sienna;
+    background-color: rgb(117, 90, 54);
     width: 100%;
     height: 10%;
     display: flex;
